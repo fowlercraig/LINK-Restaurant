@@ -1,0 +1,419 @@
+/* @override 
+	http://craigs-imac.local:5757/assets/css/layout.css */
+
+body {
+  background: #fff;
+  background-size: 100% auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.seriftime {
+  font-family: $serif;
+}
+
+.arrow {
+  background: url(/assets/img/arrow-up.png) center top no-repeat;
+  background-size: 28px 65px;
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+#header-wrapper {
+  position: relative;
+  overflow: hidden;
+  > div {
+    position: relative;
+    display: block;
+  }
+}
+
+#header {
+  overflow: hidden;
+  position: relative
+}
+
+#header > div {
+  width: 100%;
+  vertical-align: middle;
+  padding: 0 0;
+}
+
+#logo-wrapper {
+  margin-bottom: 40px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+#main-nav {
+  font-family: $condensed;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+#main-nav a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+#nav-column .widget-container {
+  text-align: center;
+  font-family: $gothic;
+}
+
+#nav-column .widget-container > div {
+  margin-bottom: 20px;
+}
+
+#nav-column .widget-container p {
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#nav-column a {
+  text-decoration: none;
+}
+
+#nav-column .social-icons {
+  padding-top: 20px;
+}
+
+#nav-column .social-icons a {
+  color: $yellow;
+  font-size: 35px;
+}
+
+#nav-column .social-icons i {
+  font-size: 35px;
+}
+
+#nav-column h4.seriftime {
+  font-size: 29px;
+  color: #444;
+  line-height: 1.2;
+}
+
+.mc4wp-form p {
+  margin: 0;
+}
+
+.mc4wp-form #mc4wp_email,
+.mc4wp-form .button {
+  font-family: $gothic;
+  background: #f5f5f5;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.mc4wp-form .button,
+.mc4wp-form .button:hover {
+  text-shadow: none;
+  font-weight: 600;
+  border: none;
+  background: none;
+}
+
+#daily-column {
+  text-align: center;
+  padding-top: 0;
+}
+
+#daily-column .small.divider {
+  border-bottom: 1px solid;
+  width: 25%;
+  margin: 25px auto;
+}
+
+#daily-column h3 {
+  text-transform: lowercase;
+  font-size: 55px;
+  line-height: 1;
+}
+
+#daily-column .angled.divider {
+  height: 100px;
+  background: url(/assets/img/angled-divider.png);
+  background-size: 292px 104px;
+}
+
+.sausage .title,
+.beer .title {
+  font-family: $condensed;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.sausage .title {
+  font-size: 43px;
+  margin-bottom: 15px;
+}
+
+.sausage {
+  p {
+    font-family: $serif;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  .price {
+    font-family: $serif;
+    font-size: 40px;
+    line-height: 1.4
+  }
+}
+
+.beer {
+  margin-bottom: 20px;
+}
+
+.beer .title {
+  font-size: 24px;
+  margin: 0 20px;
+  line-height: 1.3;
+}
+
+.beer .co {
+  font-family: $gothic;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #808285;
+}
+
+#main {
+  padding: 50px 0;
+}
+
+#footer {
+  padding-bottom: 50px;
+  font-family: $gothic;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .widget-container > div {
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+}
+
+#nav {
+  padding-top: 50px;
+}
+
+#nav .logo {
+  margin-top: -140px
+}
+
+#goodatthings {
+  font-family:'Thirsty Script W01 Regular';
+  text-align: center;
+  font-size: 24px;
+  color: #222;
+}
+
+#whatweregoodat {
+  font-family: $condensed;
+  text-transform: uppercase;
+  font-size: 42px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #222
+}
+
+#bg-image {
+  position: fixed;
+  background: url(/assets/img/bg-03.png) top center no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2
+}
+
+#header-wrapper {
+  position: relative;
+  z-index: 1;
+  top: 0;
+}
+
+#main {
+  position: relative;
+  z-index: 3;
+  padding-top: 10px;
+  background: #fff;
+  &.animated {
+    h1 {
+
+    }
+  }
+}
+
+#goodthings {
+  padding: 30px 0 25px;
+  border-bottom: 10px solid $yellow;
+}
+
+.page-header {
+  h1 {
+    font-family: $serif;
+  }
+}
+
+.page-content {
+  font-family: $gothic;
+  p {
+    font-family: inherit;
+  }
+}
+
+#shifter-nav {
+  background: $yellow;
+  text-align: center;
+  padding: 25px;
+}
+
+.pagination {
+  .button {
+    background: none;
+    text-shadow: none;
+    font-weight: 200;
+    color: $yellow;
+    font-family: $condensed;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid $yellow
+  }
+}
+
+.blog {
+
+  .item {
+
+    .posted {
+      font-family: $condensed;
+      text-transform: uppercase;
+    }
+
+    .title {
+      font-family: $serif;
+      a {
+        text-decoration: none!important;
+        border: none;
+      }
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      &.img-responsive {
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+      }
+    }
+  }
+
+}
+
+.page-content {
+  img {
+    width: 100%;
+  }
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $yellow;
+  z-index: 999;
+  > div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -20px;
+    text-align: center;
+  }
+  i {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+.spinner {
+  margin: 100px auto 0;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}

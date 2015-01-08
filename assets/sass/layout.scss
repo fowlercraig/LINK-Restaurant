@@ -417,3 +417,18 @@ body {
     -webkit-transform: scale(1.0);
   }
 }
+
+.shifter-enabled .shifter-handle {
+  background: RGBA(255, 198, 46, 1);
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  z-index: 999;
+  top: 10px;
+  left: 10px;;
+}
+
+.shifter-enabled .shifter-handle:after { 
+  background-color: #000;
+  box-shadow: 0 5px 0 #000, 0 -5px 0 #000;
+}

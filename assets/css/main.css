@@ -3861,6 +3861,35 @@ body {
   box-shadow: 0 5px 0 #000, 0 -5px 0 #000;
 }
 
+#instagram-feed {
+  width: 66.6666%;
+  float: left;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+#twitter-feed {
+  width: 33.33333%;
+  float: right;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.insta-item {
+  width: 33.3333%;
+  float: left;
+  background: #000;
+}
+.insta-item p {
+  margin: 0;
+}
+.insta-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  opacity: .97;
+}
+
 /* Smaller than standard 960 (devices and browsers) */
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 /* All Mobile Sizes (devices and browser) */

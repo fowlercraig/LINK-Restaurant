@@ -4,10 +4,22 @@
 // @codekit-prepend "../bower_components/skrollr/src/skrollr.js";
 // @codekit-prepend "../bower_components/jquery-fittext.js/jquery.fittext.js";
 // @codekit-prepend "../bower_components/Shifter/src/jquery.fs.shifter.js";
+// @codekit-prepend "../bower_components/jquery-instagram/dist/instagram.min.js";
 
 SmartAjax_load('/assets/javascripts', function() {
 
   function thangs() {
+
+    $('a').each(function() {
+   var a = new RegExp('/' + window.location.host + '/');
+   if(!a.test(this.href)) {
+       $(this).click(function(event) {
+           event.preventDefault();
+           event.stopPropagation();
+           window.open(this.href, '_blank');
+       });
+   }
+});
 
     $("#whatweregoodat").fitText(1.875);
     $("#goodatthings").fitText(1.25);

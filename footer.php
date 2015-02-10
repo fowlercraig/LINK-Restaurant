@@ -16,11 +16,11 @@
     <div id="shifter-nav"></div>
 </nav>
 
-<div id="loading"><div class="spinner">
+<!--<div id="loading"><div class="spinner">
   <div class="bounce1"></div>
   <div class="bounce2"></div>
   <div class="bounce3"></div>
-</div></div>
+</div></div>-->
 
 <script type="text/javascript" src="http://use.typekit.net/hhw3khz.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>

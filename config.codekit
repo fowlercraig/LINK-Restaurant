@@ -56,7 +56,7 @@
 		},
 	"\/assets\/bower_components\/jquery-instagram\/dist\/instagram.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/bower_components\/jquery-instagram\/dist\/instagram.min.js",
 		"outputAbbreviatedPath": "\/assets\/bower_components\/jquery-instagram\/dist\/min\/instagram.min-min.js",
@@ -2193,7 +2193,7 @@
 		},
 	"\/assets\/bower_components\/velocity\/jquery.velocity.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/bower_components\/velocity\/jquery.velocity.js",
 		"outputAbbreviatedPath": "\/assets\/bower_components\/velocity\/min\/jquery.velocity-min.js",
@@ -2566,7 +2566,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 2
 		},
 	"\/assets\/javascripts\/scripts.min.js": {
 		"fileType": 64,

@@ -3911,3 +3911,16 @@ body {
 #royalslider {
   padding-top: 0;
 }
+
+#press-links {
+  margin: 0 -10px;
+}
+#press-links > div {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#press-links > div img {
+  width: 100%;
+}
